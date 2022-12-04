@@ -29,3 +29,5 @@ stages:
         deploy:
           steps:
           - script: echo "hello, qa world !!!"
+          - script: ls -l
+          - script: pwd
